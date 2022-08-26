@@ -87,7 +87,7 @@ a:hover {
   margin-top: 2px;
   margin-right: 5px;
   margin-left: 2px;
-  background-image: url("/img/btn_icon_first.png");
+  background-image: url("img/btn_icon_first.png");
   background-size: 17px;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -100,7 +100,7 @@ a:hover {
   height: 23px;
   margin-top: -2px;
   margin-right: 7px;
-  background-image: url("/img/btn_icon_pencil.png");
+  background-image: url("img/btn_icon_pencil.png");
   background-size: 22px;
   background-repeat: no-repeat;
   vertical-align: middle;
@@ -201,11 +201,11 @@ a:hover {
     vertical-align: middle;
   }
 
-  .main_nav ul li .item_1::before { background-image: url("/img/nav_icon_search.png");}
+  .main_nav ul li .item_1::before { background-image: url("img/nav_icon_search.png");}
 
-  .main_nav ul li .item_2::before { background-image: url("/img/nav_icon_house.png");}
+  .main_nav ul li .item_2::before { background-image: url("img/nav_icon_house.png");}
 
-  .main_nav ul li .item_3::before { background-image: url("/img/nav_icon_family.png");}
+  .main_nav ul li .item_3::before { background-image: url("img/nav_icon_family.png");}
   /* メインナビアイコン */
 /* nav */
 
@@ -246,7 +246,7 @@ a:hover {
       #area { padding: 28px 20px 21px 19px;}
 
       #area .main_title_icon::before {
-        background-image: url("/img/title_icon_area.png");
+        background-image: url("img/title_icon_area.png");
         background-size: 40px;
       }
 
@@ -255,7 +255,7 @@ a:hover {
       #study { padding: 26px 18px 21px 19px;}
 
       #study .main_title_icon::before {
-        background-image: url("/img/ico_title_study.png");
+        background-image: url("img/ico_title_study.png");
         background-size: 45px;
       }
 
@@ -264,7 +264,7 @@ a:hover {
       #medical { padding: 21px 18px 20px 19px;}
 
       #medical .main_title_icon::before {
-        background-image: url("/img/ico_title_method.png");
+        background-image: url("img/ico_title_method.png");
         background-size: 40px;
       }
 
@@ -281,9 +281,9 @@ a:hover {
       #pick_up .main_title_icon::before,
       #guide .main_title_icon::before { background-size: 52px;}
 
-      #pick_up .main_title_icon::before {  background-image: url("/img/title_icon_pickup.png");}
+      #pick_up .main_title_icon::before {  background-image: url("img/title_icon_pickup.png");}
 
-      #guide .main_title_icon::before { background-image: url("/img/title_icon_guide.png");}
+      #guide .main_title_icon::before { background-image: url("img/title_icon_guide.png");}
 
       .main_title_text h2 {
         display: inline-block;
@@ -586,7 +586,7 @@ a:hover {
     }
 
     .bnr_box::after {
-      content: url("/img/btn_icon_arrow_pc.jpg");
+      content: url("img/btn_icon_arrow_pc.jpg");
       display: inline-block;
       position: absolute;
       top: 23px;
@@ -616,7 +616,7 @@ a:hover {
       width: 23px;
       height: 23px;
       margin-right: 8px;
-      background-image: url("/img/btn_icon_download.png");
+      background-image: url("img/btn_icon_download.png");
       background-size: 20px;
       background-repeat: no-repeat;
       vertical-align: sub;
@@ -1010,7 +1010,7 @@ a:hover {
     height: 30px;
     margin-right: 16px;
     margin-left: 2px;
-    background-image: url("/img/btn_icon_download.png");
+    background-image: url("img/btn_icon_download.png");
     background-size: 25px;
     background-repeat: no-repeat;
     vertical-align: text-bottom; 
@@ -1078,14 +1078,14 @@ a:hover {
   #area .main_title_text { margin-top: 2px;}
 
   #area .main_title_icon::before {
-    background-image: url("/img/title_icon_area.png");
+    background-image: url("img/title_icon_area.png");
     background-size: 45px;
   }
 
   #study { padding: 27px 14px 30px 14px;}
 
   #study .main_title_icon::before {
-    background-image: url("/img/ico_title_study.png");
+    background-image: url("img/ico_title_study.png");
     background-size: 52px;
     margin-top: 1px;
     margin-right: 7px;
@@ -1096,7 +1096,7 @@ a:hover {
   #medical { padding: 21px 14px 29px 14px;}
 
   #medical .main_title_icon::before {
-    background-image: url("/img/ico_title_method.png");
+    background-image: url("img/ico_title_method.png");
     background-size: 45px;
     margin-left: -1px;
     margin-right: 1px;
@@ -1120,9 +1120,9 @@ a:hover {
   #pick_up .main_title_icon::before,
   #guide .main_title_icon::before { background-size: 56px; height: 52px;}
 
-  #pick_up .main_title_icon::before {  background-image: url("/img/title_icon_pickup.png");}
+  #pick_up .main_title_icon::before {  background-image: url("img/title_icon_pickup.png");}
 
-  #guide .main_title_icon::before { background-image: url("/img/title_icon_guide.png");}
+  #guide .main_title_icon::before { background-image: url("img/title_icon_guide.png");}
 
   .main_title_text h2 {
     font-size: 23px;
