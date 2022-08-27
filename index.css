@@ -827,9 +827,7 @@ h2,h3 { font-weight: 700;}
     background-size: 26px;
   }
 
-  .btn_firstTime {
-    margin-left: 0;
-  }
+  .btn_firstTime { margin-left: 0;}
   /* 共通 */
 
   /* header */
@@ -856,7 +854,6 @@ h2,h3 { font-weight: 700;}
   #sp_nav p {
     color: #fff;
     font-weight: 700;
-    /* margin: 15px 8px 0px 10px; */
     margin: 13px 8px 0px 10px;
     letter-spacing: 0.1em;
   }
@@ -874,17 +871,6 @@ h2,h3 { font-weight: 700;}
     vertical-align: middle;
   }
 
-  /* .main_nav {
-    display: none;
-  } */
-
-  /* メニューツールチップためし */
-
-  /* .main_nav {
-    display: none;
-  } */
-
-  /*  */
 /* main_navのcontainer のスタイル変更 */
   /*  */
 
@@ -937,10 +923,6 @@ h2,h3 { font-weight: 700;}
     width: auto;
   }
 
-  /* .main_nav ul a:nth-child(2) {
-    width: auto;
-  } */
-
   .main_nav ul li {
     font-size: 18px;
     font-weight: 700;
@@ -990,9 +972,7 @@ h2,h3 { font-weight: 700;}
 
     #main,
     #sub {
-      /* max-width: 768px; */
       width: 100%;     
-      /* margin: 0 auto; */
       float: none;
       display: block;
     }
@@ -1026,7 +1006,8 @@ h2,h3 { font-weight: 700;}
 
       .btn_dl {
         width: 355px;
-        padding: 10px 0 13px;
+        padding: 15px 0 8px;
+        height: 55px;
         margin: 15px auto;
         box-shadow: 0 -3px 0 0 #e5e5e5 inset;
       }
@@ -1034,10 +1015,11 @@ h2,h3 { font-weight: 700;}
       .btn_dl p::before {
         width: 24px;
         height: 30px;
-        margin-right: 16px;
-        margin-left: 2px;
+        margin-top: -5px;
+        margin-right: 15px;
+        margin-left: 3px;
         background-size: 25px;
-        vertical-align: text-bottom; 
+        vertical-align: text-top; 
       }
 
       .btn_dl p { letter-spacing: 0.0em;}
