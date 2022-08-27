@@ -802,7 +802,8 @@ h2,h3 { font-weight: 700;}
   .btn_publish {
     width: 170px;
     height: 52px;
-    padding: 4px 0 0;
+    /* padding: 4px 0 0; */
+    padding: 10px 0 0;
     margin-left: 15px;
     line-height: 2em;
     box-shadow: 0 3px 0 0 #e57169;
@@ -811,21 +812,19 @@ h2,h3 { font-weight: 700;}
 
   .btn_firstTime::before {
     width: 24px;
-    height: 32px;
-    margin-top: 8px;
+    height: 30px;
+    margin-top: 1px;
     margin-right: 5px;
     margin-left: 0px;
     background-size: 22px;
-    vertical-align: bottom;
   }
   
   .btn_publish::before {
     width: 26px;
     height: 28px;
-    margin-top: 7px;
+    margin-top: 0px;
     margin-right: 7px;
     background-size: 26px;
-    vertical-align: text-bottom;
   }
 
   .btn_firstTime {
