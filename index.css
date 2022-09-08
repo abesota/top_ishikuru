@@ -199,6 +199,7 @@ h2,h3 { font-weight: 700;}
     background-color: #f1f1f1;
     padding-bottom: 133px;
     position: relative;
+    /* overflow: hidden; */
   }
 
   main .container { padding-top: 28px;}
@@ -212,9 +213,16 @@ h2,h3 { font-weight: 700;}
   #main .main_box { margin-bottom: 20px;}
 
     /* メインのタイトルアイコン */
-      .main_box_title { overflow: hidden;}
+      /* .main_box_title { overflow: hidden;} */
+      /* .main_box_title { overflow: hidden; display: flex; margin-bottom: 15px; align-items: center;} */
+      .main_box_title { overflow: hidden; display: flex; align-items: center;}
 
-      .main_title_icon { float: left;}
+      .area_title_rel {
+        line-height: 1.6em;
+        letter-spacing: 0.12em;
+      }
+
+      /* .main_title_icon { float: left;} */
 
       .main_title_icon::before {
         content: '';
@@ -233,11 +241,13 @@ h2,h3 { font-weight: 700;}
 
       #area .main_title_text { margin-top: 3px;}
 
-      #study { padding: 26px 18px 21px 19px;}
+      /* #study { padding: 26px 18px 21px 19px;} */
+      #study { padding: 10px 18px 21px 19px;}
 
       #study .main_title_icon::before {
         background-image: url("img/ico_title_study.png");
         background-size: 45px;
+        margin-top: 16px;
       }
 
       #study .main_title_text { margin-top: 9px;}
@@ -249,13 +259,13 @@ h2,h3 { font-weight: 700;}
         background-size: 40px;
       }
 
-      #medical .main_title_text { margin-top: 14px;}
+      #medical .main_title_text { margin-top: 2px;}
 
       #pick_up .main_title_icon,
       #guide .main_title_icon { padding: 8px 3px 0px 19px;}
 
       #pick_up .main_title_text,
-      #guide .main_title_text { margin-top: 22px;}
+      #guide .main_title_text { margin-top: 8px;}
 
       #pick_up .main_title_icon::before,
       #guide .main_title_icon::before { background-size: 52px;}
@@ -541,7 +551,6 @@ h2,h3 { font-weight: 700;}
 
     .bnr_btn_top {
       margin-top: 20px;
-      /* display: inline-block; */
       display: block;
     }
 
@@ -828,7 +837,7 @@ h2,h3 { font-weight: 700;}
   .sp_none { display: none;}
 
   .pc_show {
-    display: none;
+    display: none !important;
   }
   
   .sp_show {
@@ -837,7 +846,6 @@ h2,h3 { font-weight: 700;}
 
   .btn_firstTime,
   .btn_publish {
-    /* width: 170px; */
     width: 100%;
     height: 52px;
     padding: 10px 0 0;
@@ -1017,7 +1025,7 @@ h2,h3 { font-weight: 700;}
     #main .main_box {
       /* width: 355px; */
       width: 100%;
-      margin: 0 auto 16px;
+      margin: 0 auto 15px;
     }
 
     /* sp表示時 headerやsubのボタン */
@@ -1071,7 +1079,7 @@ h2,h3 { font-weight: 700;}
 
     /* sp表示時 #areaの検索 */
       .search_form {
-        margin-top: 11px;
+        margin-top: 9px;
         border-radius: 3px;
         padding: 0;
         position:relative;
@@ -1120,7 +1128,9 @@ h2,h3 { font-weight: 700;}
       /* #area */
         #area { padding: 26px 14px 9px 14px;}
 
-        #area .main_title_text { margin-top: 2px;}
+        #area .main_box_title { margin-bottom: 15px;}
+
+        #area .main_title_text { margin-top: 3px;}
 
         #area .main_title_text p { display: block;}
 
@@ -1128,12 +1138,12 @@ h2,h3 { font-weight: 700;}
       /* #area */
 
       /* #study */
-        #study { padding: 27px 14px 30px 14px;}
+        #study { padding: 28px 14px 30px 14px;}
 
         #study .main_title_icon::before {
           background-size: 52px;
           margin-top: 1px;
-          margin-right: 7px;
+          margin-right: 6px;
         }
 
         #study .main_title_text { margin-top: 0px;}
@@ -1144,18 +1154,18 @@ h2,h3 { font-weight: 700;}
       #medical .main_title_icon::before {
         background-size: 45px;
         margin-left: -1px;
-        margin-right: 1px;
+        margin-right: 2px;
       }
 
-      #medical .main_title_text { margin-top: 17px;}
+      #medical .main_title_text { margin-top: 5px;}
 
-      #pick_up .main_title_icon { padding: 10px 10px 0px 9px;}
+      #pick_up .main_title_icon { padding: 6px 10px 0px 9px;}
 
-      #guide .main_title_icon { padding: 10px 10px 3px 9px;}
+      #guide .main_title_icon { padding: 10px 10px 4px 9px;}
 
-      #pick_up .main_title_text { margin-top: 10px; margin-bottom: 5px;}
+      #pick_up .main_title_text { margin-top: 11px; margin-bottom: 6px;}
 
-      #guide .main_title_text { margin-top: 23px; margin-bottom: 1px;}
+      #guide .main_title_text { margin-top: 12px; margin-bottom: 6px;}
 
       #pick_up .main_title_icon::before,
       #guide .main_title_icon::before { background-size: 56px; height: 52px;}
@@ -1199,7 +1209,9 @@ h2,h3 { font-weight: 700;}
       .sp_map .dd_wrap dd {
         display: inline-block;
         border-right: 1px solid #333;
-        padding: 4px 13px 0px 9px;
+        /* padding: 4px 13px 0px 9px; */
+        padding: 4px 13px 0px 0px;
+        margin-right: 9.5px;
         font-size: 17px;
         margin-bottom: 18px;
         letter-spacing: 0.1em;
@@ -1207,7 +1219,7 @@ h2,h3 { font-weight: 700;}
 
       .sp_map .dd_wrap dd:last-child { border-right: none;}
 
-      .sp_map .dd_wrap .dd_start { padding-left: 0px; padding-right: 13px;}
+      /* .sp_map .dd_wrap .dd_start { padding-left: 0px; padding-right: 13px;} */
 
       .dd_wrap dd a {
         color: #0063dd;
@@ -1487,6 +1499,7 @@ h2,h3 { font-weight: 700;}
   /* footer */
   footer {
     border-top: 2px solid #cacaca;
+    overflow: hidden;
   }
 
   footer .container {
